@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Complete HTML Form Example</title>
+</head>
+<body>
+
+  <h1>Complete HTML Form Tags Practice</h1>
+
+  <form action="/submit" method="post">
+
+    <!-- Text -->
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" placeholder="John Doe" required />
+    <br /><br />
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required />
+    <br /><br />
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" />
+    <br /><br />
+
+    <!-- Telephone -->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="+1-555-555-5555" />
+    <br /><br />
+
+    <!-- URL -->
+    <label for="website">Website:</label>
+    <input type="url" id="website" name="website" placeholder="https://example.com" />
+    <br /><br />
+
+    <!-- Number -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="0" max="120" />
+    <br /><br />
+
+    <!-- Range -->
+    <label for="satisfaction">Satisfaction Level (1-10):</label>
+    <input type="range" id="satisfaction" name="satisfaction" min="1" max="10" />
+    <br /><br />
+
+    <!-- Date -->
+    <label for="birthdate">Birth Date:</label>
+    <input type="date" id="birthdate" name="birthdate" />
+    <br /><br />
+
+    <!-- Time -->
+    <label for="appt">Appointment Time:</label>
+    <input type="time" id="appt" name="appt" />
+    <br /><br />
+
+    <!-- Color -->
+    <label for="favcolor">Favorite Color:</label>
+    <input type="color" id="favcolor" name="favcolor" value="#fk0003" />
+    <br /><br />
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="subscribe" name="subscribe" />
+    <label for="subscribe">Subscribe to newsletter</label>
+    <br /><br />
+
+    <!-- Radio buttons -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male" />
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" />
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other" />
+    <label for="other">Other</label>
+    <br /><br />
+
+    <!-- Textarea -->
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write your comments here..."></textarea>
+    <br /><br />
+
+    <!-- Select and Option -->
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">--Select your country--</option>
+      <option value="usa">United States</option>
+      <option value="uk">United Kingdom</option>
+      <option value="canada">Canada</option>
+      <option value="australia">Australia</option>
+    </select>
+    <br /><br />
+
+    <!-- Multiple Select -->
+    <label for="languages">Languages Known:</label>
+    <select id="languages" name="languages" multiple size="4">
+      <option value="english">English</option>
+      <option value="spanish">Spanish</option>
+      <option value="french">French</option>
+      <option value="german">German</option>
+    </select>
+    <br /><br />
+
+    <!-- Fieldset and Legend -->
+    <fieldset>
+      <legend>Preferences</legend>
+
+      <input type="checkbox" id="emailPref" name="preferences" value="email" />
+      <label for="emailPref">Email Notifications</label><br />
+
+      <input type="checkbox" id="smsPref" name="preferences" value="sms" />
+      <label for="smsPref">SMS Notifications</label><br />
+
+      <input type="checkbox" id="pushPref" name="preferences" value="push" />
+      <label for="pushPref">Push Notifications</label>
+
+    </fieldset>
+    <br />
+
+    <!-- Hidden Input -->
+    <input type="hidden" name="userid" value="12345" />
+
+    <!-- File Input -->
+    <label for="avatar">Upload Avatar:</label>
+    <input type="file" id="avatar" name="avatar" accept="image/*" />
+    <br /><br />
+
+    <!-- Reset and Submit Buttons -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+  </form>
+
+</body>
+</html>
