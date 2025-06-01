@@ -1,0 +1,31 @@
+/* Element selector */
+h1 {
+    color: green;
+}
+
+/* Class selector */
+.anik-class {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* ID selector */
+#anik-id,
+#anik-id-2 {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Universal selector */
+* {
+    text-align: center;
+}
+
+/* Group selector */
+h2, h3, h4 {
+    color: rgb(241, 94, 121);
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Cursor Types Demo</title>
+  <style>
+    /* Base styling for each demo heading */
+    h1 {
+      padding: 20px;
+      margin: 15px 0;
+      background-color: #f0f0f0;
+      border: 2px solid #ccc;
+      font-size: 1.25rem;
+      /* Make the h1 a block-level element with some width,
+         so you can easily hover over the entire bar to see the cursor. */
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    p{
+        font-size: 3rem;
+        margin: 10px 0;
+        color: #d90e0e;
+    }
+
+    /* All cursor classes */
+    .cursor-auto          { cursor: auto; }
+    .cursor-default       { cursor: default; }
+    .cursor-none          { cursor: none; }
+    .cursor-context-menu  { cursor: context-menu; }
+    .cursor-help          { cursor: help; }
+    .cursor-pointer       { cursor: pointer; }
+    .cursor-progress      { cursor: progress; }
+    .cursor-wait          { cursor: wait; }
+    .cursor-cell          { cursor: cell; }
+    .cursor-crosshair     { cursor: crosshair; }
+    .cursor-text          { cursor: text; }
+    .cursor-vertical-text { cursor: vertical-text; }
+    .cursor-alias         { cursor: alias; }
+    .cursor-copy          { cursor: copy; }
+    .cursor-move          { cursor: move; }
+    .cursor-no-drop       { cursor: no-drop; }
+    .cursor-not-allowed   { cursor: not-allowed; }
+    .cursor-grab          { cursor: grab; }
+    .cursor-grabbing      { cursor: grabbing; }
+    .cursor-all-scroll    { cursor: all-scroll; }
+    .cursor-col-resize    { cursor: col-resize; }
+    .cursor-row-resize    { cursor: row-resize; }
+    .cursor-n-resize      { cursor: n-resize; }
+    .cursor-e-resize      { cursor: e-resize; }
+    .cursor-s-resize      { cursor: s-resize; }
+    .cursor-w-resize      { cursor: w-resize; }
+    .cursor-ne-resize     { cursor: ne-resize; }
+    .cursor-nw-resize     { cursor: nw-resize; }
+    .cursor-se-resize     { cursor: se-resize; }
+    .cursor-sw-resize     { cursor: sw-resize; }
+    .cursor-ew-resize     { cursor: ew-resize; }
+    .cursor-ns-resize     { cursor: ns-resize; }
+    .cursor-nesw-resize   { cursor: nesw-resize; }
+    .cursor-nwse-resize   { cursor: nwse-resize; }
+    .cursor-zoom-in       { cursor: zoom-in; }
+    .cursor-zoom-out      { cursor: zoom-out; }
+  </style>
+</head>
+<body>
+  <p>cursor: auto</p>
+  <h1 class="cursor-auto">Hover here → cursor: auto</h1>
+
+  <p>cursor: default</p>
+  <h1 class="cursor-default">Hover here → cursor: default</h1>
+
+  <p>cursor: none</p>
+  <h1 class="cursor-none">Hover here → cursor: none</h1>
+
+  <p>cursor: context-menu</p>
+  <h1 class="cursor-context-menu">Hover here → cursor: context-menu</h1>
+
+  <p>cursor: help</p>
+  <h1 class="cursor-help">Hover here → cursor: help</h1>
+
+  <p>cursor: pointer</p>
+  <h1 class="cursor-pointer">Hover here → cursor: pointer</h1>
+
+  <p>cursor: progress</p>
+  <h1 class="cursor-progress">Hover here → cursor: progress</h1>
+
+  <p>cursor: wait</p>
+  <h1 class="cursor-wait">Hover here → cursor: wait</h1>
+
+  <p>cursor: cell</p>
+  <h1 class="cursor-cell">Hover here → cursor: cell</h1>
+
+  <p>cursor: crosshair</p>
+  <h1 class="cursor-crosshair">Hover here → cursor: crosshair</h1>
+
+  <p>cursor: text</p>
+  <h1 class="cursor-text">Hover here → cursor: text</h1>
+
+  <p>cursor: vertical-text</p>
+  <h1 class="cursor-vertical-text">Hover here → cursor: vertical-text</h1>
+
+  <p>cursor: alias</p>
+  <h1 class="cursor-alias">Hover here → cursor: alias</h1>
+
+  <p>cursor: copy</p>
+  <h1 class="cursor-copy">Hover here → cursor: copy</h1>
+
+  <p>cursor: move</p>
+  <h1 class="cursor-move">Hover here → cursor: move</h1>
+
+  <p>cursor: no-drop</p>
+  <h1 class="cursor-no-drop">Hover here → cursor: no-drop</h1>
+
+  <p>cursor: not-allowed</p>
+  <h1 class="cursor-not-allowed">Hover here → cursor: not-allowed</h1>
+
+  <p>cursor: grab</p>
+  <h1 class="cursor-grab">Hover here → cursor: grab</h1>
+
+  <p>cursor: grabbing</p>
+  <h1 class="cursor-grabbing">Hover here → cursor: grabbing</h1>
+
+  <p>cursor: all-scroll</p>
+  <h1 class="cursor-all-scroll">Hover here → cursor: all-scroll</h1>
+
+  <p>cursor: col-resize</p>
+  <h1 class="cursor-col-resize">Hover here → cursor: col-resize</h1>
+
+  <p>cursor: row-resize</p>
+  <h1 class="cursor-row-resize">Hover here → cursor: row-resize</h1>
+
+  <p>cursor: n-resize</p>
+  <h1 class="cursor-n-resize">Hover here → cursor: n-resize</h1>
+
+  <p>cursor: e-resize</p>
+  <h1 class="cursor-e-resize">Hover here → cursor: e-resize</h1>
+
+  <p>cursor: s-resize</p>
+  <h1 class="cursor-s-resize">Hover here → cursor: s-resize</h1>
+
+  <p>cursor: w-resize</p>
+  <h1 class="cursor-w-resize">Hover here → cursor: w-resize</h1>
+
+  <p>cursor: ne-resize</p>
+  <h1 class="cursor-ne-resize">Hover here → cursor: ne-resize</h1>
+
+  <p>cursor: nw-resize</p>
+  <h1 class="cursor-nw-resize">Hover here → cursor: nw-resize</h1>
+
+  <p>cursor: se-resize</p>
+  <h1 class="cursor-se-resize">Hover here → cursor: se-resize</h1>
+
+  <p>cursor: sw-resize</p>
+  <h1 class="cursor-sw-resize">Hover here → cursor: sw-resize</h1>
+
+  <p>cursor: ew-resize</p>
+  <h1 class="cursor-ew-resize">Hover here → cursor: ew-resize</h1>
+
+  <p>cursor: ns-resize</p>
+  <h1 class="cursor-ns-resize">Hover here → cursor: ns-resize</h1>
+
+  <p>cursor: nesw-resize</p>
+  <h1 class="cursor-nesw-resize">Hover here → cursor: nesw-resize</h1>
+
+  <p>cursor: nwse-resize</p>
+  <h1 class="cursor-nwse-resize">Hover here → cursor: nwse-resize</h1>
+
+  <p>cursor: zoom-in</p>
+  <h1 class="cursor-zoom-in">Hover here → cursor: zoom-in</h1>
+
+  <p>cursor: zoom-out</p>
+  <h1 class="cursor-zoom-out">Hover here → cursor: zoom-out</h1>
+</body>
+</html>
